@@ -46,3 +46,14 @@ const myArray = [2, 3, 4, 5];
 //syntext
 myArray.forEach(() => {});
 myArray.forEach(function () {});
+
+
+///=>>>> IIFE
+/// Imidiately Invoked function Expressions (IIFE)
+(function chai() {
+  console.log("Welcome function");
+})();
+
+(()=>{
+    console.log("Welcome function two");
+})();
