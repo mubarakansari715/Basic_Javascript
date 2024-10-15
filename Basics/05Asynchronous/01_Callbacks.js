@@ -9,9 +9,9 @@ function mySecond() {
   console.log("Goodbye");
 }
 
-// //Sequence
-// myFirst()
-// mySecond()
+//Sequence
+myFirst()
+mySecond()
 
 //reverse Sequence
 mySecond();
