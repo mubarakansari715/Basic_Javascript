@@ -79,6 +79,7 @@
 //   });
 
 //////====> promiseAsync => Async
+///second way to do promise
 const promiseAsync = new Promise(function (resolve, reject) {
   setTimeout(() => {
     const error = true;
